@@ -1,0 +1,16 @@
+{
+  "name": "datafordeler-graphql-schema-filter",
+  "version": "0.1.0",
+  "private": true,
+  "type": "commonjs",
+  "description": "Filter a large Datafordeler GraphQL schema by register prefixes (e.g. BBR, DAR, CVR) while keeping dependencies.",
+  "license": "UNLICENSED",
+  "scripts": {
+    "filter": "node scripts/filter-schema.js"
+  },
+  "dependencies": {
+    "graphql": "^16.11.0"
+  }
+}
+
+
