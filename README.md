@@ -13,7 +13,7 @@ npm install
 Filter the big FLEX schema to only include BBR + DAR:
 
 ```bash
-node scripts/filter-schema.js --registers BBR,DAR --input ./FLEX_V001.schema.graphql --output schema/FLEX_BBR_DAR.schema.graphql
+node scripts/filter-schema.js --registers BBR --input ./FLEXCURRENT_V001.schema.graphql --output schema/FLEXCURRENT_BBR.schema.graphql
 ```
 
 If you want to **keep** cross-register joins (bigger output), disable foreign pruning:
@@ -37,3 +37,23 @@ node scripts/filter-schema.js --registers CVR --input schema/CVR_V001.schema.gra
 ```bash
 node scripts/filter-schema.js --no-validate --registers BBR,DAR --input schema/FLEX_V001.schema.graphql --output schema/FLEX_BBR_DAR.schema.graphql
 ```
+
+
+Query type for Flexible service v1 containing the following register versions:
+
+BBR v2
+CPR v1
+CVR v2
+DAGI v2
+DAR v2
+DHMHoejdekurver v2
+DHMOprindelse v2
+DS v2
+EBR v1
+EJF v1
+FIKSPUNKT v2
+GEODKV v2
+HISTKORT v2
+MAT v2
+SVR v2
+VUR v2
