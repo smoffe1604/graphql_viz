@@ -7,7 +7,8 @@
   "license": "UNLICENSED",
   "scripts": {
     "filter": "node scripts/filter-wrapper.js",
-    "domain-mappings": "node scripts/domain-mappings.js"
+    "domain-mappings": "node scripts/domain-mappings.js",
+    "simplify": "node scripts/simplify-schema.js"
   },
   "dependencies": {
     "graphql": "^16.11.0"
